@@ -1,0 +1,72 @@
+@font-face {
+	font-family: "DejaWeb";
+	src: url(DejaWeb.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "DejaWeb Bold";
+	src: url(DejaWeb-Bold.ttf) format("truetype");
+	weight: bold;
+}
+
+body {
+	background: #ffad00;
+	font-family: "DejaWeb", Sans-Serif;
+	font-size: 150%;
+	color: #bf9130;
+}
+
+h1 {
+	color: #a67000;
+	font-family: "DejaWeb Bold", Sans-Serif;
+	text-align: center;
+}
+
+a {
+	color: #a67000;
+	text-decoration: none;
+}
+
+span {
+	font-family: "DejaWeb Bold", Sans-Serif;
+	vertical-align: top;
+}
+
+input {
+	background: #ffd273;
+	border: 0px solid #a67000;
+	font-family: "DejaWeb Bold", Sans-Serif;
+	font-size: 100%;
+	width: 95%;
+	color: #a67000;
+	padding: 0px;
+	margin: 0px;
+}
+
+textarea {
+	background: #ffd273;
+	border: 0px solid #a67000;
+	font-family: "DejaWeb", Sans-Serif;
+	font-size: 100%;
+	width: 95%;
+	height: 5em;
+	color: #a67000;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	left: 0.1em;
+}
+
+.question {
+	margin-top: 1em;
+}
+
+.answer {
+	margin-top: 0.5em;
+	vertical-align: top;
+}
+
+#add {
+	text-align: center;
+	font-size: 200%;
+}

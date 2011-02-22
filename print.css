@@ -1,0 +1,28 @@
+body {
+	background: white;
+	color: black;
+}
+
+a {
+	color: white;
+	display: none;
+}
+
+input {
+	color: black;
+}
+
+textarea {
+	color: black;
+	display: inline;
+}
+
+a.hide {
+	color: white;
+	display: none;
+}
+
+a.show {
+	color: white;
+	display: none;
+}
