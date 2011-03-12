@@ -1,12 +1,12 @@
 @font-face {
 	font-family: "DejaWeb";
-	src: url(DejaWeb.ttf) format("truetype");
+	src: url("DejaWeb.ttf");
 }
 
 @font-face {
-	font-family: "DejaWeb Bold";
-	src: url(DejaWeb-Bold.ttf) format("truetype");
-	weight: bold;
+	font-family: "DejaWeb";
+	src: url("DejaWeb-Bold.ttf");
+	font-weight: bold;
 }
 
 body {
@@ -18,7 +18,8 @@ body {
 
 h1 {
 	color: #a67000;
-	font-family: "DejaWeb Bold", Sans-Serif;
+	font-family: "DejaWeb", Sans-Serif;
+	font-weight: bold;
 	text-align: center;
 }
 
@@ -28,14 +29,16 @@ a {
 }
 
 span {
-	font-family: "DejaWeb Bold", Sans-Serif;
+	font-family: "DejaWeb", Sans-Serif;
+	font-weight: bold;
 	vertical-align: top;
 }
 
 input {
 	background: #ffd273;
 	border: 0px solid #a67000;
-	font-family: "DejaWeb Bold", Sans-Serif;
+	font-family: "DejaWeb", Sans-Serif;
+	font-weight: bold;
 	font-size: 100%;
 	width: 95%;
 	color: #a67000;
@@ -47,6 +50,7 @@ textarea {
 	background: #ffd273;
 	border: 0px solid #a67000;
 	font-family: "DejaWeb", Sans-Serif;
+	font-weight: normal;
 	font-size: 100%;
 	width: 95%;
 	height: 5em;
